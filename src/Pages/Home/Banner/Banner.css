@@ -1,0 +1,24 @@
+.carousel-title{
+    font-size: 75px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(10, 10, 83);
+}
+.carousel-p{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(24, 24, 85);
+}
+.slider-icon{
+    background-color: white;
+    padding: 20px;
+   
+}
+.slider-icon:hover{
+    background-color: rgb(91, 221, 208);
+    padding: 10px;
+}
+.slider-icon img{
+    width: 50px;
+    height: 50px;
+}
