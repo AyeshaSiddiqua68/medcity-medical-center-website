@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Cardiology Clinic",
-        "description": "All cardiologists study the disorders of the heart, but the study of adult and child heart disorders are trained to take care of small children and adult heart disease",
+        "description": "All cardiologists study the disorders of the heart, but the study of adult and child heart disorders are trained to take care of small children",
         "point1": "Cardiac Electrophysiology",
         "point2": "Nuclear Cardiology",
         "point3": "Enchocardiography",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Pathology Clinic",
-        "description": "Pathology is the study of disease. It is the bridge between science and medicine. It underpins every aspect of patient care, from diagnostic testing and treatment advice to using cutting-edge genetic technologies and preventing disease.",
+        "description": "Pathology is the study of disease. It is the bridge between science and medicine. It underpins every aspect of patient care and treatment",
         "point1": "Surgical Pathology",
         "point2": "Histipathology",
         "point3": "Cytopathology",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Pediatric Clinic",
-        "description": "Pediatric providers see patients from birth into early adulthood to make sure children achieve stay healthy.Our care includes preventive health checkups",
+        "description": "Pediatric providers see patients from birth into early adulthood to make sure children achieve stay healthy.It includes health checkups",
         "point1": "Clinic Laboratory",
         "point2": "Research Analyst",
         "point3": "Quality Assurance",
@@ -38,18 +38,19 @@
     {
         "id": 5,
         "name": "Dental Clinic",
-        "description": "We work hard to create the ultimate stress-free and comfortable dental experience. Schedule online or call to make an appointment. Voted Best Cosmetic Dent.  ",
-        "point2": "Dental Care",
+        "description": "We work hard to create the ultimate stress-free and comfortable dental experience. Schedule online or call to make an appointment",
+        "point1": "Dental Care",
+        "point2": "Clinical Labratory",
         "point3": "Quality Assurance",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDTCspyWdnL2x7o1VaINRKnuAEfs7x7r6nJw&usqp=CAU"
+        "img": "https://7oroof.com/tfdemos/medcity/wp-content/uploads/2020/11/slider_icon02.png"
     },
     {
         "id": 6,
         "name": "Blood Donation",
-        "description": "Get A Donation information. 100% Privacy Protected! Find what you are looking for Here. 99% Match on Get A Donation. Only relevant search results, Click here and Find.",
+        "description": "Get A Donation information. 100% Privacy Protected! Find what you are looking for Here. 99% Match on Get A Donation.",
         "point1": "Clinic Laboratory",
         "point2": "Blood Collection",
         "point3": "Quality Assurance",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROgr-IJQZ9ZsJkECaElgCPny8XpSjMRgwMbQ&usqp=CAU"
+        "img": "https://7oroof.com/tfdemos/medcity/wp-content/uploads/2020/11/slider_icon04.png"
     }
 ]

@@ -6,7 +6,7 @@ const Success = ({ success }) => {
     return (
         <div className="col-lg-3 col-sm-6 col-12">
             <div className=' success  '>
-                <img className='image' src={img} alt="" />
+                <img className='image-success' src={img} alt="" />
                 <h4 className=' p-4'>{details}</h4>
             </div>
         </div>

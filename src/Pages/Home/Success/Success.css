@@ -5,13 +5,13 @@
     margin: 10px;
 }
 
-.image{
+.image-success{
     width: 100%;
     height: 200px;
     border-top-left-radius: 20px;
     border-top-right-radius:20px ;
 }
-.image:hover{
+.image-success:hover{
     width: 100%;
     height: 250px;
     transition: 0.5;
