@@ -6,7 +6,7 @@ import Specialists from '../Specialists/Specialists';
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
             <Banner></Banner>
             <Services></Services>
             <AllSuccess></AllSuccess>

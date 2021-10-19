@@ -11,7 +11,7 @@ const AllSuccess = () => {
     }, [])
 
     return (
-        <div className="container success-container ">
+        <div id="success" className="container success-container ">
             <h1 className="fw-bold text-white mt-5 pt-5">Our Success</h1>
             <h5 className="text-white">Medcity Has Touched The Lives Of Patients & Providing Care For The Sickest In Our Community.</h5>
             <div className="row p-5 ">

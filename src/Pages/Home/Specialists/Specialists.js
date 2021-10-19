@@ -10,7 +10,7 @@ const Specialists = () => {
             .then(data => setSpecialists(data))
     }, [])
     return (
-        <div className="container specialists-container ">
+        <div id="specialist" className="container specialists-container ">
             <h1 className="fw-bold mt-5 pt-5">Meet Our Specialists</h1>
             <div className="row p-5 ">
                 {

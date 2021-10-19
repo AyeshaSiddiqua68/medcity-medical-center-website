@@ -1,8 +1,9 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Service.css'
 
 const Sevice = ({ service }) => {
-    const { name, description, img, point1, point2, point3 } = service;
+    const { id, name, description, img, point1, point2, point3 } = service;
     return (
         <div className='col-lg-4 col-sm-6 col-12'>
             <div className='service shadow-lg'>
@@ -15,7 +16,15 @@ const Sevice = ({ service }) => {
                     <li>{point3}</li>
                 </ul>
                 <br />
-                <button className='btn-read-more fw-bold'>Read More</button>
+                <NavLink
+                    to={`/service/${service?.id}`}
+                    activeStyle={{
+                        fontWeight: 'bold'
+                    }}
+                >
+                    <button className='btn-read-more fw-bold'>Read More</button>
+                </NavLink>
+                {/* <button className='btn-read-more fw-bold'>Read More</button> */}
             </div>
         </div>
     );
