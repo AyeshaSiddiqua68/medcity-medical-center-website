@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Specialist from '../Specialist/Specialist';
-import './Specialists.css'
-
+//specialists part for home page
 const Specialists = () => {
     const [specialists, setSpecialists] = useState([])
     useEffect(() => {

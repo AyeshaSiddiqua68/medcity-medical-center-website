@@ -6,7 +6,7 @@ import {
     BrowserRouter as Router,
     Link
 } from "react-router-dom"
-
+//footer for all pages
 const Footer = () => {
     return (
         <div>

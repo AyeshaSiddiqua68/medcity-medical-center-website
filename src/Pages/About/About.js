@@ -4,13 +4,11 @@ import logo2 from '../../images/bannerIcon/icon1.png'
 import logo3 from '../../images/bannerIcon/icon4.png'
 import logo4 from '../../images/bannerIcon/icon3.png'
 import image from '../../images/about/about2.jpg'
+
 // about page
 const About = () => {
     return (
         <div>
-
-
-            {/* middle part added */}
             <div className="about-page">
                 <h5 className="about-h5">WELCOME TO MEDCITY</h5>
                 <h1 className="about-header">WHO WE ARE</h1>
@@ -87,8 +85,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     );
 };

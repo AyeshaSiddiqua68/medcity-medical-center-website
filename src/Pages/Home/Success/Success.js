@@ -1,6 +1,6 @@
 import React from 'react';
 import './Success.css'
-
+//every single success for all successes
 const Success = ({ success }) => {
     const { img, details } = success;
     return (

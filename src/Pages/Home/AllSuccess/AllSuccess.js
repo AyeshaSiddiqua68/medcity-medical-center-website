@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Success from '../Success/Success';
 import './AllSuccess.css'
-
+//home page success part
 const AllSuccess = () => {
     const [allSuccess, setAllSuccess] = useState([])
     useEffect(() => {

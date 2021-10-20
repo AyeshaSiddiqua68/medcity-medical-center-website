@@ -12,7 +12,6 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div>
-
             {/* main part */}
             <div className="container">
                 <div className="row my-5">

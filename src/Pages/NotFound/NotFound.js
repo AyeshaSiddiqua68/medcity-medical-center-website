@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import notFound from '../../images/404.jpg'
-
+// 404 page
 const NotFound = () => {
     return (
         <div>

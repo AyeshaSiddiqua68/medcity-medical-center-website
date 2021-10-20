@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Service.css'
-
+//every single service for all services
 const Sevice = ({ service }) => {
     const { id, name, description, img, point1, point2, point3 } = service;
     return (

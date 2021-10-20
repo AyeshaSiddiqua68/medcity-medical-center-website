@@ -4,13 +4,10 @@ import { Carousel } from 'react-bootstrap';
 import banner1 from '../../../images/banner/banner1.jpg'
 import banner2 from '../../../images/banner/banner2.jpg'
 import banner3 from '../../../images/banner/banner3.jpg'
-
 import sliderIcon1 from '../../../images/bannerIcon/icon1.png'
 import sliderIcon2 from '../../../images/bannerIcon/icon2.png'
 import sliderIcon3 from '../../../images/bannerIcon/icon3.png'
-
-
-
+//home page banner part
 const Banner = () => {
     return (
         <>
@@ -78,7 +75,6 @@ const Banner = () => {
                         src={banner3}
                         alt="Third slide"
                     />
-
                     <Carousel.Caption>
                         <div className="row">
                             <div className="col-lg-6  col-sm-6 col-6">

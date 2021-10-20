@@ -11,8 +11,6 @@ import image9 from '../..//images/blogPage/blog-img9.jpg'
 const Blog = () => {
     return (
         <div>
-
-            {/* main part  */}
             <div className="blog-page">
                 <h1>Blog</h1>
             </div>

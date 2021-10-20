@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import './ServiceDetails.css'
 
-
+//service details page for detals button
 const ServiceDetails = () => {
     let { id } = useParams();
 

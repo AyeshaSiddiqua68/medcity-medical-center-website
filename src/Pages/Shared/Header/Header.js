@@ -7,7 +7,7 @@ import {
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import useAuth from '../../../hooks/useAuth';
 import { HashLink } from 'react-router-hash-link';
-
+//header for all pages
 const Header = () => {
     const { user, logOut } = useAuth();
     return (

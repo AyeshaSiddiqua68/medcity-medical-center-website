@@ -2,14 +2,11 @@ import React from 'react';
 import useAuth from '../../../hooks/useAuth';
 import './Login.css'
 
+//login page
 const Login = () => {
     const { signInUsingGoogle, handleEmailChange, handlePasswordChange, handleRegistration, error, toggleLogin, isLogin, handleResetPassword, handleNameChange } = useAuth();
-
-
-
-
-
     return (
+        // email & password sign in part
         <div className="mx-5 mt-5 login-form">
             <form onSubmit={handleRegistration}>
                 <h3 className="login-header text-center">Please {isLogin ? 'Login' : 'Register'} </h3>
@@ -49,8 +46,7 @@ const Login = () => {
                 <button type="button" onClick={handleResetPassword} className="btn btn-secondary btn-sm">Reset Password</button>
             </form>
 
-
-
+            {/* google sign in part */}
             <br />
             <div><h4><strong>-----------OR----------</strong></h4></div>
             <br />

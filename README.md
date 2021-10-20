@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 .This website represents the overall information about the organazation
 .Organization's specialist dococtors, their success rate about handeling critical patients all are shown in this website
 .The health and well-being of our patients and their health care team will always be our priority, so we follow the best practices for clinniless
-.Medcity Has Touched The Lives Of Patients & Providing Care For The Sickest In Our Community
+.Medcity has touched the lives of patients & providing care for the sickest in our community
 
 
 ### `yarn start`

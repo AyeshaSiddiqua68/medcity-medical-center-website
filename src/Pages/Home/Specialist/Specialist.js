@@ -1,7 +1,6 @@
 import React from 'react';
-
 import './Specialist.css'
-
+//every single specialist for all specialists part
 const Specialist = ({ specialist }) => {
     const { name, title, details, img } = specialist;
     return (
