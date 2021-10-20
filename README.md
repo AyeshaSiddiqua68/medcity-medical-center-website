@@ -1,6 +1,6 @@
 # MedCity Medical Health Center
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [MedCity Medical Health Center](https://medcity-medical-health-center.web.app/).
 
 ## Available Scripts
 
