@@ -12,6 +12,10 @@ import Login from './Pages/Login/Login/Login';
 import Header from './Pages/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Footer from './Pages/Shared/Header/Footer/Footer';
+import About from './Pages/About/About';
+import Blog from './Pages/Blog/Blog';
+import Contact from './Pages/Contact/Contact';
 
 
 
@@ -29,6 +33,15 @@ function App() {
             <Route path='/home'>
               <Home></Home>
             </Route>
+            <Route path="/about">
+              <About></About>
+            </Route>
+            <Route path="/blog">
+              <Blog></Blog>
+            </Route>
+            <Route path="/contact">
+              <Contact></Contact>
+            </Route>
             <Route path='/login'>
               <Login></Login>
             </Route>
@@ -40,6 +53,7 @@ function App() {
             </Route>
           </Switch>
         </Router>
+        <Footer></Footer>
       </AuthProvider>
     </div>
   );

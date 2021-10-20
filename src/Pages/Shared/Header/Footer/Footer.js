@@ -22,7 +22,7 @@ const Footer = () => {
 
                                 <p className="mt-4 ">
                                     <small>
-                                        We are very proud to announce that since 2010 we are spreading awesomness to our community and we have helped a lots people! we hope we are doing best we can.
+                                        We are very proud to announce that since 2010 we are spreading awesomness to our community and we have helped a lots of people! we hope we are doing best we can.
                                     </small>
                                 </p>
                                 <div className="social-icon">

@@ -1,0 +1,12 @@
+.about-page{
+    background-color: rgb(225, 240, 241);
+    padding: 40px;
+}
+.about-h5{
+    color: rgb(10, 10, 83);
+}
+.about-header{
+    color: rgb(10, 10, 83);
+    font-size: 50px;
+    font-weight: 700;
+}

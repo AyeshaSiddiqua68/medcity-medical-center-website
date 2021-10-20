@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css'
 import logo from '../../../images/logo/logo.png'
 import {
-    Link, NavLink
+    Link
 } from "react-router-dom"
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import useAuth from '../../../hooks/useAuth';
@@ -13,22 +13,22 @@ const Header = () => {
     return (
         <>
             <>
-                <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg">
+                <Navbar variant="light" sticky="top" collapseOnSelect expand="lg" className='menubar-container'>
                     <Container>
                         <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand>
                         <Navbar.Toggle />
                         <Navbar.Collapse className="justify-content-end">
-                            <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
-                            <Nav.Link as={HashLink} to="/home#services">Services</Nav.Link>
-                            <Nav.Link as={HashLink} to="/home#success">Success</Nav.Link>
-                            <Nav.Link as={HashLink} to="/home#specialist">Specialists</Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#home" className='item'>Home</Nav.Link>
+                            <Nav.Link as={HashLink} to="/about" className='item'>About</Nav.Link>
+                            <Nav.Link as={HashLink} to="/blog" className='item'>Blog</Nav.Link>
+                            <Nav.Link as={HashLink} to="/contact" className='item'>Contact</Nav.Link>
                             {user?.email ?
                                 <Button onClick={logOut} variant="light">
                                     Logout
                                 </Button> :
-                                <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                                <Nav.Link as={Link} to="/login" className='item'>Login</Nav.Link>
                             }
-                            <Navbar.Text>
+                            <Navbar.Text className='item'>
                                 Signed in as: <a href="#login">{user?.displayName}</a>
                             </Navbar.Text>
                         </Navbar.Collapse>
