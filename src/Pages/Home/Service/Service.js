@@ -22,7 +22,7 @@ const Sevice = ({ service }) => {
                         fontWeight: 'bold'
                     }}
                 >
-                    <button className='btn-read-more fw-bold'>Read More</button>
+                    <button className='btn-read-more fw-bold'>Details</button>
                 </NavLink>
                 {/* <button className='btn-read-more fw-bold'>Read More</button> */}
             </div>

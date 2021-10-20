@@ -11,12 +11,17 @@
 .footer-header{
     list-style: none;
 }
-  .footer-menu {
-    list-style: none;
+.footer-menu {
+  text-decoration: none;
+    list-style-type: none;
     margin-top: 20px;
     font-size: 16px;
     cursor: pointer;
+    color: white;
+    
   }
+  
+  
   .footer-menu:hover {
     color: rgb(148, 231, 236);
   }
@@ -27,9 +32,10 @@
     background-color: rgb(241, 236, 236);
   }
   .footer-container {
-    background-color: #030114;
+    background-color: #090430;
     padding: 50px;
     color: rgb(216, 209, 209);
   }
+  
   
   

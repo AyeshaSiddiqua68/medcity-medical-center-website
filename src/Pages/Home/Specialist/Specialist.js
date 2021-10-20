@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Specialist.css'
 
 const Specialist = ({ specialist }) => {
@@ -11,6 +12,7 @@ const Specialist = ({ specialist }) => {
                 <h5 className='title'>{title}</h5>
                 <p className='my-2'>{details}</p>
                 <br />
+
                 <button className='btn fw-bold'>Read More</button>
             </div>
         </div>
