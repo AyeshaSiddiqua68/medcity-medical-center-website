@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# MedCity Medical Health Center
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+.This Project is based on heelth care named "MedCity Medical Health Center"
+.This website represents the overall information about the organazation
+.Organization's specialist dococtors, their success rate about handeling critical patients all are shown in this website
+.The health and well-being of our patients and their health care team will always be our priority, so we follow the best practices for clinniless
+.Medcity Has Touched The Lives Of Patients & Providing Care For The Sickest In Our Community
+
 
 ### `yarn start`
 
